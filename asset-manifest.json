@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/blog-dunia-febby/static/css/main.c4b8a7e3.css",
-    "main.js": "/blog-dunia-febby/static/js/main.c9387430.js",
-    "static/media/profile.webp": "/blog-dunia-febby/static/media/profile.30ade120b58621f79456.webp",
-    "index.html": "/blog-dunia-febby/index.html",
-    "main.c4b8a7e3.css.map": "/blog-dunia-febby/static/css/main.c4b8a7e3.css.map",
-    "main.c9387430.js.map": "/blog-dunia-febby/static/js/main.c9387430.js.map"
+    "main.css": "/static/css/main.a35622b3.css",
+    "main.js": "/static/js/main.dfbf355f.js",
+    "static/media/profile.webp": "/static/media/profile.30ade120b58621f79456.webp",
+    "index.html": "/index.html",
+    "main.a35622b3.css.map": "/static/css/main.a35622b3.css.map",
+    "main.dfbf355f.js.map": "/static/js/main.dfbf355f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4b8a7e3.css",
-    "static/js/main.c9387430.js"
+    "static/css/main.a35622b3.css",
+    "static/js/main.dfbf355f.js"
   ]
 }
