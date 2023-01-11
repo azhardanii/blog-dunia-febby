@@ -24,7 +24,11 @@ const Article = () => {
                 <div className="container blog-content">
                     <img src={content.banner} className='radius width-img' alt="#" />
 
-                    <div dangerouslySetInnerHTML={{ __html: content.para }}></div>                
+                    <div dangerouslySetInnerHTML={{ __html: content.para1 }}></div>
+                    {!content.img1 ? " " : <img src={content.img1} className='radius width-img' alt="#" />}
+                    {!content.para2 ? " " : <div dangerouslySetInnerHTML={{ __html: content.para2 }}></div>}
+                    {!content.img2 ? " " : <img src={content.img2} className='radius width-img' alt="#" />}
+                    {!content.para3 ? " " : <div dangerouslySetInnerHTML={{ __html: content.para3 }}></div>}                    
                 </div>
             </div>
         })}
