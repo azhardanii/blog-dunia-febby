@@ -45,7 +45,7 @@ const Article = () => {
                     </div>
                 </Link>
 
-                {dataBlog.slice(page, (page+1)).map(next => {                    
+                {dataBlog.slice((page+1), (page+2)).map(next => {                    
                     return<Link onClick={() => { window.scrollTo({top: 0}) }} to={`../blog/${next.slug}`} className="blog-footer">
                     <div>
                         <p style={{ textAlign:'right' }}>{next.title}</p>
