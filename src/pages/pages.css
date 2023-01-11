@@ -1,0 +1,87 @@
+section {
+    margin: -1rem 0 6rem;
+}
+
+article {
+    margin: 2rem 0 6rem;
+}
+
+.width-img {
+    width: 75%;
+    margin-bottom: 1rem
+}
+
+.blog-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    margin: -1rem auto 0;
+    gap: 2rem;
+    max-width: 725px;
+    text-align: justify
+}
+
+.blog-footer-container {    
+    margin: 6rem auto 0;
+    width: 100%
+}
+
+.blog-footer {
+    display: flex;
+    justify-content: center; 
+    max-width: 100%
+}
+
+.blog-footer div {       
+   max-width: 300px;   
+   margin: 0 1rem;
+   display: flex;
+   align-items: center;   
+}
+
+.blog-footer div p {
+    color: var(--text-color);
+    font-weight: var(--font-semibold);   
+    cursor: pointer 
+}
+
+.footer-icon {
+    color: var(--text-color);
+    width: 4rem
+}
+
+.notfound-content {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem
+}
+
+/* RESPONSIVE BREAKPOINT */
+@media screen and (max-width: 992px) {
+    section {
+        margin: 3rem 0;
+    }
+    article {
+        margin: 1rem 2rem 0;
+    }
+    .width-img {
+        width: 80%
+    }    
+}
+
+@media screen and (max-width: 450px) {
+    article {
+        margin: 1rem 1rem 0;
+    }
+    .width-img {
+        width: 100%
+    }
+    .blog-footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem
+    }    
+}
